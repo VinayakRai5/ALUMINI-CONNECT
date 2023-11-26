@@ -43,11 +43,11 @@ class _LandingPageState extends State<LandingPage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
-                "Connect Today..\nTransform tommorow its not just our mission, its our wish for you.",
+                "Join the Legacy,\nConnect the Future..\nUnite, Inspire, Succeed.",
                 style: TextStyle(
                   fontSize: 27,
                   fontWeight: FontWeight.bold,
-                  color: Colors.grey[600],
+                  color: const Color.fromARGB(255, 14, 12, 12),
                 ),
               ),
               CustomImage(ImageLink: "assets/landing_page.png"),
